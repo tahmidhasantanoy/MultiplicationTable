@@ -6,8 +6,8 @@ int main() {
     printf("Number : ");
     scanf("%d", &n);
 
-    for (int i = 1; i <= 10 ; i++) {
-        printf("%d \n", (n*i));
+    for (int i = 1; i <= 10; i++) {
+        printf("%d * %d = %d \n", n, i, (n * i));
 
 
     }
